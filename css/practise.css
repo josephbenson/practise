@@ -1,47 +1,43 @@
 body
 {
 	background-color: black;
+	font-family: sans-serif;
 }
-#wrapper
+
+.wrapper
 {
-	width:1000px;
 	height: auto;
-	margin-left: 175px;
-	background-color:black;
 	color: white;	
 }
-p
-{
-	margin-left: 40px;
-	margin-right: 20px;
-	line-height: 200%;
-	font-family: serif;
-	font-size: medium;
+
+.heading {
+	text-align: center;
 }
-li
-{
-	margin-left: 50px;
-	line-height: 200%;
-	font-family: serif;
-	font-size: medium;
-}
-/*.heading
-{
-	position: relative;	
-}*/
+
 .heading img
 {
-	margin: 30px;
-	width: 300px;
+	margin-top: 30px;
 	height: 200px;	
 }
+
 .heading h1
 {
 	color: white;
-	font-family: normal;
 	font-size: -webkit-xxx-large;	
-	margin-top: 10px; 
+	margin-top: 30px; 
 }
+
+.main-body-copy {
+	max-width: 600px;
+	padding:10px 20px 20px;
+	margin: 0 auto;
+}
+
+.main-body-copy ol li {
+	margin-left: 0;
+	padding-left: 5px;
+}
+
 .image1
 {
 	position: relative;
@@ -50,6 +46,7 @@ li
     float: right;
     clear: both;
 }
+
 .image1 img
 {
 	width: 450px;	
@@ -57,6 +54,7 @@ li
 	height: 337px;
     padding-right: 40px;	
 }
+
 .image1 h2
 {
 	margin-left: 40px;
@@ -64,12 +62,14 @@ li
 	position: absolute;
 	top: 30px;	
 }
+
 .image1 p
 {
 	width: 350px;
 	top: 100px;
 	position: absolute;
 }
+
 .image2
 {
 	position: relative;
@@ -78,12 +78,14 @@ li
     margin-top: 0px;
     width: 450px;	
 }
+
 .image2 img
 {
 	width: 450px;	
 	opacity: 0.4;
 
 }
+
 .image2 h2
 {
 	margin-left: 40px;
@@ -91,27 +93,32 @@ li
 	position: absolute;
 	top: 30px;	
 }
+
 .image2 p
 {
 	width: 350px;
 	top: 100px;
 	position: absolute;
 }
+
 .nav-pills li
 {
 	border-left: 2px solid white;	
 	margin-right: 10px;	
 }
+
 a
 {
 	color: darkgray;
 }
+
 .nav-pills li a:hover 
 {
 	color: black;
 	font-size: large;
 	/*background-color: darkgray;	*/
 }
+
 .page-footer
 {
 	padding-bottom: 20px;	
